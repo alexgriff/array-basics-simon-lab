@@ -9,9 +9,9 @@ The game works as follows, Simon will press down one of the colored buttons. The
 
 We will be using Arrays to store a history of the entire pattern. There will be two main arrays. Your job will be to add elements to them and check them at certain indexes.
 
-The array `simon` will store all of Simon's move.
+An array named `simon` will store all of Simon's move.
 
-The array `player` will keep track of your moves as you click on the buttons.
+An array named `player` will keep track of your moves as you click on the buttons.
 
 There's a lot of code here. Don't worry if 100% of it doesn't make sense. A lot of it is just making the game have a nice look and feel.  You need only write a small amount of code within four functions as instructed here.
 
@@ -112,7 +112,7 @@ function draw() {
 
 function simonsPress() {
   // Your code here...
-  // Set 'pressed' equal to be the value of
+  // Set 'pressed' equal to the value of
   // 'simon' at the index 'currentIndex'
 }
 
